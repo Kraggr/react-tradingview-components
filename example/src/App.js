@@ -1,10 +1,25 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-tradingview-components'
+import { TradingViewMarketWidget, TradingViewStockChartWidget } from 'react-tradingview-components'
 import 'react-tradingview-components/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const style = {
+    textAlign: 'center'
+  };
+
+  return (
+  <div style={style}>
+    <h1>Advanced Real-Time Chart Widget</h1>
+    <p>
+      <TradingViewStockChartWidget />
+    </p>
+    <h1>Stock Market Widget</h1>
+    <p>
+      <TradingViewMarketWidget width={900}/>
+    </p>
+  </div>
+  )
 }
 
 export default App

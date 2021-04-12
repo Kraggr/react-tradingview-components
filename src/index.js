@@ -1,6 +1,4 @@
-import React from 'react'
-import styles from './styles.module.css'
+export { TradingViewMarketWidget } from './stock-market-widget'
+export { TradingViewStockChartWidget } from './stock-chart-widget'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { BarStyles, IntervalTypes, RangeTypes, Themes } from './types'

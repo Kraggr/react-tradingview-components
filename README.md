@@ -7,6 +7,12 @@
 ## Install
 
 ```bash
+yarn add react-tradingview-components
+```
+
+OR
+
+```bash
 npm install --save react-tradingview-components
 ```
 
@@ -15,12 +21,15 @@ npm install --save react-tradingview-components
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-tradingview-components'
-import 'react-tradingview-components/dist/index.css'
+import TradingViewStockChartWidget from 'react-tradingview-components'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <TradingViewStockChartWidget 
+              symbol='NSDQ:AAPL'
+              theme='Dark' 
+              range='1d'
+            />
   }
 }
 ```

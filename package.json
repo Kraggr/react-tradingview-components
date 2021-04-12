@@ -1,10 +1,10 @@
 {
   "name": "react-tradingview-components",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "React components for rendering the TradingView Widgets",
   "author": "hugoduar",
   "license": "MIT",
-  "repository": "hugoduar/react-tradingview-components",
+  "repository": "Kraggr/react-tradingview-components",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
