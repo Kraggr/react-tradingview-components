@@ -4,6 +4,9 @@
 
 [![NPM](https://img.shields.io/npm/v/react-tradingview-components.svg)](https://www.npmjs.com/package/react-tradingview-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## DEMO
+
+Checkout a demo here [https://kraggr.github.io/react-tradingview-components/](https://kraggr.github.io/react-tradingview-components/)
 ## Install
 
 ```bash
@@ -26,9 +29,9 @@ import TradingViewStockChartWidget from 'react-tradingview-components'
 class Example extends Component {
   render() {
     return <TradingViewStockChartWidget 
-              symbol='NSDQ:AAPL'
+              symbol='NASDAQ:AAPL'
               theme='Dark' 
-              range='1d'
+              range='12m'
             />
   }
 }
