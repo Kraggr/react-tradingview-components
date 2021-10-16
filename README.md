@@ -43,3 +43,4 @@ class Example extends Component {
 ## License
 
 MIT © [hugoduar](https://github.com/hugoduar)
+
